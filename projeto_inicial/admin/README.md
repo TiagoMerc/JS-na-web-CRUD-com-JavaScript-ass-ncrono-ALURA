@@ -29,8 +29,29 @@ ____________________________
  
  **Tela de Clientes**
 
- ![Tela de Cliemtes](./projeto_inicial/admin/assets/img/prints/telaClientes.png)
+ ![Tela de Cliemtes](./assets/img/prints/telaClientes.png)
 
  **Exibindo dados**
 
  ![Exibindo dados](./assets/img/prints/exibindoDados.png)
+
+ **Lidando com promises**
+
+![Promise](./assets/img/prints/promise.png)
+
+**O que aprendemos?**
+
+Nesta aula, aprendemos:
+
+- Fazer requisições utilizando XMLHttpRequest.
+
+- Lidar com promises.
+
+- Fazer uma requisição http utilizando XMLHttpRequest para buscar todos os clientes do servidor.
+
+- Refatorar o código utilizando promises melhorando a leitura do código.
+
+- Utilizar template literals para criar um template html.
+
+### 02. Fetch API
+
