@@ -123,3 +123,25 @@ Nesta aula, aprendemos:
 
 ### 05. Async/Await  
 
+**Funções assíncronas**
+ 
+[Funções assíncronas | MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function)
+
+
+**Async/Await | arquivo: Atualiza Cliente**
+
+![Async/Await - arquivo: atualiza cliente](./assets/img/prints/asyncAwait.png)
+
+**Lidando com Erros**
+
+![Lidando com erros](./assets/img/prints/lidandoErro.png)
+
+**Código com Try/Catch e Live Server com a página de erro**
+
+![Try catch e página de erro](./assets/img/prints/lidandoErroVScodeLiveServer.png)
+
+**Nesta aula, aprendemos:**
+
+- Utilizar async/await para indicar funções assíncronas.
+
+- Tratar erros com try/catch

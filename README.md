@@ -113,7 +113,7 @@ _________
 
 ![Edita cliente](./projeto_inicial/admin/assets/img/prints/editarCliente.png)
 
-Nesta aula, aprendemos:
+**Nesta aula, aprendemos:**
 
 - Fazer uma query string utilizando a propriedade **searchParams.get()** para encontrar um id.
 
@@ -123,3 +123,25 @@ Nesta aula, aprendemos:
 
 ### 05. Async/Await 
 
+**Funções assíncronas**
+ 
+[Funções assíncronas | MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function)
+
+
+**Async/Await | arquivo: Atualiza Cliente**
+
+![Async/Await - arquivo: atualiza cliente](./projeto_inicial/admin/assets/img/prints/asyncAwait.png)
+
+**Lidando com Erros**
+
+![Lidando com erros](./projeto_inicial/admin/assets/img/prints/lidandoErro.png)
+
+**Código com Try/Catch e Live Server com a página de erro**
+
+![Try catch e página de erro](./projeto_inicial/admin/assets/img/prints/lidandoErroVScodeLiveServer.png)
+
+**Nesta aula, aprendemos:**
+
+- Utilizar async/await para indicar funções assíncronas.
+
+- Tratar erros com try/catch
