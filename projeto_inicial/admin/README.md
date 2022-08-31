@@ -92,3 +92,18 @@ _________
 - Refatorar as responsabilidades do código pensando na manutenção da aplicação no futuro.
 
 ### 03. Criar e remover clientes
+
+**Criando um cliente**
+
+![Criando um cliente](./assets/img/prints/criandoUmClientes.png)
+
+**Nesta aula, aprendemos:**
+
+- Usar a método **closest** para encontrar o elemento do **DOM** mais próximo ao que queremos remover
+
+- Criar um cliente utilizando o verbo http **POST**.
+
+- Remover um elemento do dom com método **remove()**
+
+- Deletar um cliente utilizando o verbo http **DELETE**
+

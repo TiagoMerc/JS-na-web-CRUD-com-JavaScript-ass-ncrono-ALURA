@@ -5,8 +5,32 @@ const listaClientes = () => {
     })
 }
 
+const criaCliente = (nome, email) => {
+    return fetch(`http://localhost:3000/profile`, {
+        method: 'POST',
+        headers: {
+            'content-Type' : 'application/json'
+        },
+        body: JSON.stringify({
+            nome: nome, 
+            email: email
+        })
+    })
+    .then( resposta => {
+        return resposta.body
+    })
+}
+
+const removeCliente = (id) => {
+    return fetch(`http://localhost:3000/profile/${id}`, {
+        method: 'DELETE',
+    })
+}
+
 export const clienteService = {
-    listaClientes
+    listaClientes,
+    criaCliente, 
+    removeCliente
 }
                                                          /*   resposta e passo uma arrow function, executando resposta return, ‘return resposta .json’.
 
