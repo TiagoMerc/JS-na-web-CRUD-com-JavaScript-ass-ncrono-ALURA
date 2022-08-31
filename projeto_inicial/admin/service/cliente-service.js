@@ -1,41 +1,15 @@
-//Template
-const criaNovaLinha = (nome, email) => {
-    const linhaNovoCliente = document.createElement('tr'); 
-    const conteudo = `
-        <td class="td" data-td>${nome}</td>
-                  <td>${email}</td>
-                  <td>
-                      <ul class="tabela__botoes-controle">
-                          <li><a href="../telas/edita_cliente.html" class="botao-simples botao-simples--editar">Editar</a></li>
-                          <li><button class="botao-simples botao-simples--excluir" type="button">Excluir</button></li>
-                      </ul>
-                  </td> 
-      `
-    linhaNovoCliente.innerHTML = conteudo;
-    return linhaNovoCliente;
+const listaClientes = () => {
+    return fetch(`http://localhost:3000/profile`) 
+    .then(resposta => {
+        return resposta.json()
+    })
 }
 
-const tabela = document.querySelector('[data-tabela]');
+export const clienteService = {
+    listaClientes
+}
+                                                         /*   resposta e passo uma arrow function, executando resposta return, ‘return resposta .json’.
 
-const listaClientes = () => {
-    const promise = new Promise((resolve, reject) => {
-      const http = new XMLHttpRequest();
-      http.open('GET', 'http://localhost:3000/profile');
+                                                          Lembra que a resposta é um texto e temos que fazer .json para ele virar um objeto JavaScript válido. Agora. O que vamos fazer? Não precisa mexer em mais nada aqui embaixo, vamos no Chrome, vou atualizar a página, e funcionou. */
   
-      http.onload = () => {
-          if(http.status >= 400){
-              reject(JSON.parse(http.response));
-          }else {
-              resolve(JSON.parse(http.response));
-          }
-      }
-      http.send();
-    })
-    return promise
-} 
-
-listaClientes()
-.then( data => {
-        data.forEach(elemento => {
-        tabela.appendChild(criaNovaLinha(elemento.nome, elemento.email)) 
-})})
+                                                        
