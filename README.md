@@ -108,3 +108,18 @@ _________
 - Deletar um cliente utilizando o verbo http **DELETE**
 
 ### 04. Editar dados
+
+**Edita cliente**
+
+![Edita cliente](./projeto_inicial/admin/assets/img/prints/editarCliente.png)
+
+Nesta aula, aprendemos:
+
+- Fazer uma query string utilizando a propriedade **searchParams.get()** para encontrar um id.
+
+- Criar uma IIFE ou função auto executável.
+
+- Editar os dados utilizando o verbo http **PUT**.
+
+### 05. Async/Await 
+
