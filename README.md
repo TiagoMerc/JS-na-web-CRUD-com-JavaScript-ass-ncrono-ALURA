@@ -29,15 +29,15 @@ ____________________________
  
  **Tela de Clientes**
 
- ![Tela de Cliemtes](./assets/img/prints/telaClientes.png)
+ ![Tela de Cliemtes](./projeto_inicial/admin/assets/img/prints/telaClientes.png)
 
  **Exibindo dados**
 
- ![Exibindo dados](./assets/img/prints/exibindoDados.png)
+ ![Exibindo dados](./projeto_inicial/admin/assets/img/prints/exibindoDados.png)
 
  **Lidando com promises**
 
-![Promise](./assets/img/prints/promise.png)
+![Promise](./projeto_inicial/admin/assets/img/prints/promise.png)
 
 **O que aprendemos?**
 
@@ -68,14 +68,14 @@ browser-sync start --server --file . --host --port 5000 --startPath admin/telas/
 
 **localhost:5000**
 
-![localhost:5000](image.png)
+![localhost:5000](./projeto_inicial/admin/assets/img/prints/localhost5000.png)
 _________
 
-![browser-sync](../admin/assets/img/prints/browser-sync.png)
+![browser-sync](./projeto_inicial/admin/assets/img/prints/browser-sync.png)
 
 **VsCode | Live server | Terminal | Browser sync** 
 
-![VsCode, Live server, Terminal e Browser sync](../admin/assets/img/prints/2_browser-sync.png)
+![VsCode, Live server, Terminal e Browser sync](./projeto_inicial/admin/assets/img/prints/2_browser-sync.png)
 
 #### Event Loop
 

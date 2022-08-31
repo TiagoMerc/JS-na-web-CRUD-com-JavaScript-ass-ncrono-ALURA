@@ -68,7 +68,7 @@ browser-sync start --server --file . --host --port 5000 --startPath admin/telas/
 
 **localhost:5000**
 
-![localhost:5000](image.png)
+![localhost:5000](./assets/img/prints/localhost5000.png)
 _________
 
 ![browser-sync](../admin/assets/img/prints/browser-sync.png)
